@@ -1,0 +1,21 @@
+@mixin things {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+header{
+    @include things;
+    background-color: aquamarine;
+    
+   
+   
+    button{
+        background-color: $primarybtn;
+        &:hover{
+            background-color: chartreuse;
+        }
+    }
+    //wite .class names and p,h1 tags also like this(buuton writed)
+}

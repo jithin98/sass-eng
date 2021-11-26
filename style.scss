@@ -1,0 +1,23 @@
+@import "_variable.scss";
+@import "_headerPart2.scss";
+
+
+// click watch sass and link the generated css file to html
+ 
+
+// header button{
+//     background-color: $primarybtn;
+// }
+ 
+header h1{
+   
+    background-color: $primarybtn;
+}
+
+.contact{
+    @include things;
+}
+.footer{
+    @extend header;
+    font-size: 40px;
+}

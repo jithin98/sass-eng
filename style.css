@@ -1,0 +1,28 @@
+header, .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: aquamarine;
+}
+header button, .footer button {
+  background-color: #73fd3d;
+}
+header button:hover, .footer button:hover {
+  background-color: chartreuse;
+}
+
+header h1, .footer h1 {
+  background-color: #73fd3d;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.footer {
+  font-size: 40px;
+}/*# sourceMappingURL=style.css.map */
